@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1700px) {
+
+    .profile-picture-container img {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    /*TODO: Develop a Layout for Phone Users*/
+}
+
+@media only screen and (min-width: 2569px) {
+
+    .modal-card {
+        translate: 0rem 15rem;
+    }
+
+    #contact-modal-card {
+        width: 940px;
+    }
+
+}

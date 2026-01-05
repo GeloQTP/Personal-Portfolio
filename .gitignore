@@ -1,0 +1,15 @@
+# Node
+node_modules/
+
+# Composer (PHP dependencies)
+vendor/
+
+# Webpack build output
+dist/
+
+# Logs & temp files
+*.log
+Thumbs.db
+
+# Env files (secrets/environmental variables)
+.env
