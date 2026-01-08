@@ -259,8 +259,8 @@ unset($_SESSION['status']);
 
 
         <div class="skills-contents>
-          <h1 style="display: flex; align-items: center; justify-content: center; font-size: 2.5rem;">MY TOOLS &
-            LANGUAGES
+          <h1 style=" display: flex; align-items: center; justify-content: center; font-size: 2.5rem;">MY TOOLS &
+          LANGUAGES
           </h1>
           <hr>
           <p style="display:flex; font-size: 1.1rem; text-align:center;">well yeah, these are all the languages,
@@ -276,7 +276,6 @@ unset($_SESSION['status']);
               <i class="ci ci-css-vertical ci-4x" style="translate: 0em -0.8em;"></i>
               <i class="ci ci-javascript ci-3x"></i>
               <i class="ci ci-bootstrap ci-3x"></i>
-              <i class=" ci ci-nodejs ci-3x"></i>
             </div>
 
             <div style="display:flex; gap: 4em;">
@@ -453,7 +452,7 @@ unset($_SESSION['status']);
   let soundToggleButton = document.getElementById("sound-toggle-button");
   let icon = document.getElementById("soundIcon");
 
-  soundToggleButton.onclick = function () {
+  soundToggleButton.onclick = function() {
     if (lofiMusic.paused) {
       lofiMusic.volume = 0.1;
       lofiMusic.play();
@@ -486,11 +485,10 @@ unset($_SESSION['status']);
       closeClickSound.play();
     });
   });
-
-
 </script>
 
-<script> // Rought-notations
+<script>
+  // Rought-notations
 
   const annotate = RoughNotation.annotate;
   const annotationGroup = RoughNotation.annotationGroup;
@@ -501,12 +499,36 @@ unset($_SESSION['status']);
   const circle = document.querySelector('#encircle');
   const crossed = document.querySelector('#crossed-off');
 
-  const ps1 = annotate(underline1, { type: 'underline', color: 'white', padding: -1, animationDuration: 1600 });
-  const ps2 = annotate(underline2, { type: 'underline', color: 'white', padding: -1, animationDuration: 1600 });
+  const ps1 = annotate(underline1, {
+    type: 'underline',
+    color: 'white',
+    padding: -1,
+    animationDuration: 1600
+  });
+  const ps2 = annotate(underline2, {
+    type: 'underline',
+    color: 'white',
+    padding: -1,
+    animationDuration: 1600
+  });
   const psGroup = annotationGroup([ps1, ps2]);
-  const Dedicated = RoughNotation.annotate(strike_through, { type: 'strike-through', color: 'white', padding: -1, animationDuration: 1500 });
-  const Drawing_like = RoughNotation.annotate(circle, { type: 'circle', color: 'white', animationDuration: 2000 });
-  const crossed_off = RoughNotation.annotate(crossed, { type: 'crossed-off', color: 'white', padding: 7, animationDuration: 3000 });
+  const Dedicated = RoughNotation.annotate(strike_through, {
+    type: 'strike-through',
+    color: 'white',
+    padding: -1,
+    animationDuration: 1500
+  });
+  const Drawing_like = RoughNotation.annotate(circle, {
+    type: 'circle',
+    color: 'white',
+    animationDuration: 2000
+  });
+  const crossed_off = RoughNotation.annotate(crossed, {
+    type: 'crossed-off',
+    color: 'white',
+    padding: 7,
+    animationDuration: 3000
+  });
 
   psGroup.show();
   Dedicated.show();
@@ -530,7 +552,7 @@ unset($_SESSION['status']);
     }, 100);
   }
 
-  document.getElementById("close-btn-emailSentPopupId").addEventListener('click', function (e) {
+  document.getElementById("close-btn-emailSentPopupId").addEventListener('click', function(e) {
     e.preventDefault();
 
     emailSentPopupId.classList.remove("show");
