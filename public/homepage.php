@@ -264,7 +264,7 @@ unset($_SESSION['status']);
           </h1>
           <hr>
           <p style="display:flex; font-size: 1.1rem; text-align:center;">well yeah, these are all the languages,
-            frameworks, source control, repository, and runtime environment i used along the way i'm learning Full Stack
+            frameworks, source control, repository, and runtime environment i used along the way on learning Full Stack
             Web Development.</p>
 
 
