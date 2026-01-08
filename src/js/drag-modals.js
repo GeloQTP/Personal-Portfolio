@@ -1,7 +1,6 @@
 let topZIndex = 99;
 
-  function makeModalDraggable(modalId) {
-
+function makeModalDraggable(modalId) {
   const modal = document.getElementById(modalId);
   const header = modal.querySelector(".modal-header-frame");
 
