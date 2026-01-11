@@ -22,9 +22,6 @@ unset($_SESSION['status']);
 
 <body>
 
-  <!--ALWAYS RUN THIS FILE IN PHP FORMAT, OR THE MAILER WILL NOT WORK!-->
-
-
   <nav class="navbar-container">
     <div class="navbar-contents">
 
