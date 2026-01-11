@@ -264,7 +264,7 @@ unset($_SESSION['status']);
           </h1>
           <hr>
           <p style="display:flex; font-size: 1.1rem; text-align:center;">well yeah, these are all the languages,
-            frameworks, source control, repository, and runtime environment i used along the way on learning Full Stack
+            frameworks, source control i used along the way on learning Full Stack
             Web Development.</p>
 
 
@@ -343,12 +343,12 @@ unset($_SESSION['status']);
 
 
         <div class="description-container"> <!--description-->
-          <p>A<span id="strike_through">Dedicated</span> student that desires to become a web developer but sometimes, a
+          <p>A<span id="strike_through">Passionate</span> web developer but sometimes, a
             Digital
-            Artist. I like doing <span id="encircle">Drawing-like</span> designs for websites and
+            Artist. I like doing <span id="encircle">Drawing-like</span> designs as website designs and
             uhh...Character Designs.
-            <span id="crossed-off">Eager</span>
-            to learn new stuff (as long as it interests me) that helps me
+            <span id="crossed-off">I like</span> Love
+            learning new stuff (as long as it interests me) that helps me
             grow,
             and makes my Projects Comically Beautiful.
           </p>
