@@ -61,17 +61,17 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
     if ($mail->send()) {
       $_SESSION['status'] = "Email Sent";
-      header("Location: homepage.php");
+      header("Location: index.php");
       exit;
     } else {
       $_SESSION['status'] = "Message could not be sent, Error: " . $mail->ErrorInfo;
-      header("Location: homepage.php");
+      header("Location: index.php");
       exit;
     }
   } catch (Exception $e) {
 
     echo "Message could not be sent, Error: " . $mail->ErrorInfo;
-    header("Location: homepage.php");
+    header("Location: index.php");
     exit;
   }
 }
