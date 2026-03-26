@@ -158,3 +158,47 @@
         }, 300);
     };
 </script>
+
+<script>
+    // LOFI MUSIC
+    let backgroundVideo = document.getElementById("backgroundVideo");
+
+    let lofiMusic = document.getElementById("lofiMusic");
+    let soundToggleButton = document.getElementById("sound-toggle-button");
+    let icon = document.getElementById("soundIcon");
+
+    soundToggleButton.onclick = function() {
+        if (lofiMusic.paused) {
+            lofiMusic.volume = 0.1;
+            lofiMusic.play();
+            icon.src = "/Personal_Portfolio/api/src/img/volume_up_48dp_EFEFEF_FILL0_wght400_GRAD0_opsz48.png";
+        } else {
+            lofiMusic.pause();
+            icon.src = "/Personal_Portfolio/api/src/img/volume_mute_48dp_EFEFEF_FILL0_wght400_GRAD0_opsz48.png";
+        }
+    }
+</script>
+
+<script>
+    // TACTILE SOUNDS
+    const openClickSound = document.getElementById("openClickSound");
+    const closeClickSound = document.getElementById("closeClickSound");
+    let buttons = ["sound-toggle-button", "contact_button", "developments_button", "illustrations_button", "skills_button", "email-done-button"];
+    let closeButtons = ["close-contact-modal", "close-development-modal", "close-illustrations-modal", "close-skills-modal", "close-btn-emailSentPopupId"];
+
+    buttons.forEach(id => {
+        let button = document.getElementById(id);
+        button.addEventListener('click', () => {
+            openClickSound.volume = 0.1;
+            openClickSound.play();
+        });
+    });
+
+    closeButtons.forEach(id => {
+        let closeButton = document.getElementById(id);
+        closeButton.addEventListener('click', () => {
+            closeClickSound.volume = 0.1;
+            closeClickSound.play();
+        });
+    });
+</script>
