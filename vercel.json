@@ -1,7 +1,7 @@
 {
   "functions": {
     "public/**/*.php": {
-      "runtime": "php-8.3.28"
+      "runtime": "now-php@8.3.28"
     }
   },
   "routes": [
