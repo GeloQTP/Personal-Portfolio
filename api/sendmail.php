@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
   } catch (Exception $e) {
 
     echo "Message could not be sent, Error: " . $mail->ErrorInfo;
-    header("Location: ./../api/index.php");
+    header("Location: index.php");
     exit;
   }
 }

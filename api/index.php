@@ -13,9 +13,9 @@ unset($_SESSION['status']);
     <meta content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Portfolio website showcasing illustrations, web development, and skills.">
     <meta name="author" content="DFSquid">
-    <link rel="icon" href="../src/img/451306160_1311454363592515_8502308035295985978_n.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="../src/css/style.css">
-    <link rel="stylesheet" href="../src/css/media-queries.css">
+    <link rel="icon" href="./src/img/451306160_1311454363592515_8502308035295985978_n.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/media-queries.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@1.9.4/src/app/ci.min.css" />
     <title>DFSquiddd</title>
 </head>
@@ -26,11 +26,11 @@ unset($_SESSION['status']);
         <div class="navbar-contents">
 
             <button id="sound-toggle-button">
-                <img src="../src/img/volume_mute_48dp_EFEFEF_FILL0_wght400_GRAD0_opsz48.png" alt="" id="soundIcon">
+                <img src="./src/img/volume_mute_48dp_EFEFEF_FILL0_wght400_GRAD0_opsz48.png" alt="" id="soundIcon">
             </button>
 
             <audio id="lofiMusic">
-                <source src="../src/audios/Colorful-Flowers(chosic.com).mp3" type="audio/mp3">
+                <source src="./src/audios/Colorful-Flowers(chosic.com).mp3" type="audio/mp3">
             </audio>
 
         </div>
@@ -71,7 +71,7 @@ unset($_SESSION['status']);
 
                 <div class="contact-contents">
 
-                    <form action="./../public/sendmail.php" method="post">
+                    <form action="sendmail.php" method="post">
                         <fieldset class="contact-fieldset">
 
                             <div style="display: flex; flex-direction: column; justify-content: center; max-width: 25rem; gap: 5px;">
@@ -182,40 +182,40 @@ unset($_SESSION['status']);
                             as they are either Commissions or pure Ugly.</p>
                     </div>
                     <p>> i drew my girls in 2025</p>
-                    <img src="../src/img/myGorls.png" alt="" style="width: 800px;  height: 500px;">
+                    <img src="./src/img/myGorls.png" alt="" style="width: 800px;  height: 500px;">
                     <br>
                     <p>> i drew this one for a greek mythology themed minecraft server</p>
-                    <img src="../src/img/apollo.png" alt="Apollo Digital Artwork" style=" width: 800px; height: 500px;">
+                    <img src="./src/img/apollo.png" alt="Apollo Digital Artwork" style=" width: 800px; height: 500px;">
                     <br>
                     <p>> im proud of this one, this is a sample of my artstyle we are going to use for our game. im progressing
                         with my anatomy XD.
                         I drew this in 2025
                     </p>
-                    <img src="../src/img/Kapre.png" alt="Digital artwork of a Kapre character" style=" width: 800px; height: 500px;">
+                    <img src="./src/img/Kapre.png" alt="Digital artwork of a Kapre character" style=" width: 800px; height: 500px;">
                     <br>
                     <p>> one of my cutest one yet, and one of my oc's, her name is Cora, kid version, profile since i made her.
                         2024</p>
-                    <img src="../src/img/451306160_1311454363592515_8502308035295985978_n.jpg" alt=""
+                    <img src="./src/img/451306160_1311454363592515_8502308035295985978_n.jpg" alt=""
                         style="width: 500px;  height: 500px;">
                     <br>
                     <p>> still my cora but, with our college uniform! 2023</p>
-                    <img src="../src/img/Cora - Tdel Uniform.png" alt="My OC Cora in TDEL Uniform Digital Art" style="width: 500px;  height: 800px;">
+                    <img src="./src/img/Cora - Tdel Uniform.png" alt="My OC Cora in TDEL Uniform Digital Art" style="width: 500px;  height: 800px;">
                     <br>
                     <p>> the time i learnt how to do shading from <a style="color: white;"
                             href="https://www.youtube.com/@YTartschool">Marc Brunet</a>,
                         an awesome teacher for real. 2023
                     </p>
-                    <img src="../src/img/destroyer of balls.png" alt="Shading Practice Digital Art" style="width: 500px;  height: 800px;">
+                    <img src="./src/img/destroyer of balls.png" alt="Shading Practice Digital Art" style="width: 500px;  height: 800px;">
                     <br>
                     <p>> more shading practice. 2023</p>
-                    <img src="../src/img/ffffff.png" alt="Shading Practice Digital Art" style="width: 500px;  height: 800px;">
+                    <img src="./src/img/ffffff.png" alt="Shading Practice Digital Art" style="width: 500px;  height: 800px;">
                     <br>
                     <p>> my advanced halloween special! 2023</p>
-                    <img src="../src/img/RonalsMacDonald.png" alt="Halloween Special 2023 Digital Art" style="width: 500px;  height: 800px;">
+                    <img src="./src/img/RonalsMacDonald.png" alt="Halloween Special 2023 Digital Art" style="width: 500px;  height: 800px;">
                     <br>
                     <p>> my first drawing of my oc, Cora, gives me nostalgia everytime i look at it, makes me proud of myself.
                         2023</p>
-                    <img src="../src/img/sit.png" alt="OC Cora Digital Art" style="width: 500px;  height: 800px;">
+                    <img src="./src/img/sit.png" alt="OC Cora Digital Art" style="width: 500px;  height: 800px;">
 
                     <br>
 
@@ -378,7 +378,7 @@ unset($_SESSION['status']);
             </div>
 
             <div class="profile-picture-container"> <!--Profile Picture-->
-                <img src="../src/img/DFSquid-Profile.png" alt="DFSquid Profile Picture" title="Pen Profile Picture">
+                <img src="./src/img/DFSquid-Profile.png" alt="DFSquid Profile Picture" title="Pen Profile Picture">
             </div>
 
         </div>
@@ -424,22 +424,22 @@ unset($_SESSION['status']);
 
 
     <audio id="openClickSound">
-        <source src="../src/audios/button-click-open.mp3">
+        <source src="./src/audios/button-click-open.mp3">
     </audio>
 
     <audio id="closeClickSound">
-        <source src="../src/audios/button-click-close.mp3">
+        <source src="./src/audios/button-click-close.mp3">
     </audio>
 
     <audio id="emailSentSound">
-        <source src="../src/audios/emailSentSound.mp3">
+        <source src="./src/audios/emailSentSound.mp3">
     </audio>
 
 </body>
 
-<script src="../src/js/script.js"></script>
-<script src="../src/js/clock.js"></script>
-<script src="../src/js/drag-modals.js"></script>
+<script src="./src/js/script.js"></script>
+<script src="./src/js/clock.js"></script>
+<script src="./src/js/drag-modals.js"></script>
 <script src="https://unpkg.com/rough-notation/lib/rough-notation.iife.js"></script>
 
 <script>
@@ -453,10 +453,10 @@ unset($_SESSION['status']);
         if (lofiMusic.paused) {
             lofiMusic.volume = 0.1;
             lofiMusic.play();
-            icon.src = "../src/img/volume_up_48dp_EFEFEF_FILL0_wght400_GRAD0_opsz48.png";
+            icon.src = "./src/img/volume_up_48dp_EFEFEF_FILL0_wght400_GRAD0_opsz48.png";
         } else {
             lofiMusic.pause();
-            icon.src = "../src/img/volume_mute_48dp_EFEFEF_FILL0_wght400_GRAD0_opsz48.png";
+            icon.src = "./src/img/volume_mute_48dp_EFEFEF_FILL0_wght400_GRAD0_opsz48.png";
         }
     }
 </script>
