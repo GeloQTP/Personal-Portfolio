@@ -49,7 +49,6 @@ close_development_modal.onclick = function () {
   }, 300); // must match the duration of scaleOut animation
 };
 
-// Developments Modal Dragging Script.
 
 // Illustrations Modal Script
 

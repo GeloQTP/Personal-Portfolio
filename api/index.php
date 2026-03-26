@@ -441,9 +441,10 @@ include __DIR__ . '/style.php';
 
 </body>
 
-<script src="/Personal_Portfolio/api/src/js/script.js"></script>
-<script src="/Personal_Portfolio/api/src/js/clock.js"></script>
-<script src="/Personal_Portfolio/api/srcc/js/drag-modals.js"></script>
+<?php
+include __DIR__ . '/scripts.php';
+?>
+
 <script src="https://unpkg.com/rough-notation/lib/rough-notation.iife.js"></script>
 
 <script>
