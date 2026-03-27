@@ -194,31 +194,31 @@ include __DIR__ . '/media-queries.php';
                         with my anatomy XD.
                         I drew this in 2025
                     </p>
-                    <img src="/api/src/img/Kapre.png" alt="Digital artwork of a Kapre character" style=" width: 800px; height: 500px;">
+                    <img src="/img/Kapre.png" alt="Digital artwork of a Kapre character" style=" width: 800px; height: 500px;">
                     <br>
                     <p>> one of my cutest one yet, and one of my oc's, her name is Cora, kid version, profile since i made her.
                         2024</p>
-                    <img src="/api/src/img/451306160_1311454363592515_8502308035295985978_n.jpg" alt=""
+                    <img src="/img/451306160_1311454363592515_8502308035295985978_n.jpg" alt=""
                         style="width: 500px;  height: 500px;">
                     <br>
                     <p>> still my cora but, with our college uniform! 2023</p>
-                    <img src="/api/src/img/Cora - Tdel Uniform.png" alt="My OC Cora in TDEL Uniform Digital Art" style="width: 500px;  height: 800px;">
+                    <img src="/img/Cora - Tdel Uniform.png" alt="My OC Cora in TDEL Uniform Digital Art" style="width: 500px;  height: 800px;">
                     <br>
                     <p>> the time i learnt how to do shading from <a style="color: white;"
                             href="https://www.youtube.com/@YTartschool">Marc Brunet</a>,
                         an awesome teacher for real. 2023
                     </p>
-                    <img src="/api/src/img/destroyer of balls.png" alt="Shading Practice Digital Art" style="width: 500px;  height: 800px;">
+                    <img src="/img/destroyer of balls.png" alt="Shading Practice Digital Art" style="width: 500px;  height: 800px;">
                     <br>
                     <p>> more shading practice. 2023</p>
-                    <img src="/api/src/img/ffffff.png" alt="Shading Practice Digital Art" style="width: 500px;  height: 800px;">
+                    <img src="/img/ffffff.png" alt="Shading Practice Digital Art" style="width: 500px;  height: 800px;">
                     <br>
                     <p>> my advanced halloween special! 2023</p>
-                    <img src="/api/src/img/RonalsMacDonald.png" alt="Halloween Special 2023 Digital Art" style="width: 500px;  height: 800px;">
+                    <img src="/img/RonalsMacDonald.png" alt="Halloween Special 2023 Digital Art" style="width: 500px;  height: 800px;">
                     <br>
                     <p>> my first drawing of my oc, Cora, gives me nostalgia everytime i look at it, makes me proud of myself.
                         2023</p>
-                    <img src="/api/src/img/sit.png" alt="OC Cora Digital Art" style="width: 500px;  height: 800px;">
+                    <img src="/img/sit.png" alt="OC Cora Digital Art" style="width: 500px;  height: 800px;">
 
                     <br>
 
@@ -381,7 +381,7 @@ include __DIR__ . '/media-queries.php';
             </div>
 
             <div class="profile-picture-container"> <!--Profile Picture-->
-                <img src="/Personal_Portfolio/public/img/DFSquid-Profile.png" alt="DFSquid Profile Picture" title="Pen Profile Picture">
+                <img src="/img/DFSquid-Profile.png" alt="DFSquid Profile Picture" title="Pen Profile Picture">
             </div>
 
         </div>
