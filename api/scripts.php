@@ -165,11 +165,11 @@
             lofiMusic.volume = 0.1;
             lofiMusic.play();
             icon.src =
-                "/Personal_Portfolio/api/src/img/volume_up_48dp_EFEFEF_FILL0_wght400_GRAD0_opsz48.png";
+                "/img/volume_up_48dp_EFEFEF_FILL0_wght400_GRAD0_opsz48.png";
         } else {
             lofiMusic.pause();
             icon.src =
-                "/Personal_Portfolio/api/src/img/volume_mute_48dp_EFEFEF_FILL0_wght400_GRAD0_opsz48.png";
+                "/img/volume_mute_48dp_EFEFEF_FILL0_wght400_GRAD0_opsz48.png";
         }
     };
 

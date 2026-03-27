@@ -29,11 +29,11 @@ include __DIR__ . '/media-queries.php';
         <div class="navbar-contents">
 
             <button id="sound-toggle-button">
-                <img src="/api/src/img/volume_mute_48dp_EFEFEF_FILL0_wght400_GRAD0_opsz48.png" alt="" id="soundIcon">
+                <img src="/img/volume_mute_48dp_EFEFEF_FILL0_wght400_GRAD0_opsz48.png" alt="" id="soundIcon">
             </button>
 
             <audio id="lofiMusic">
-                <source src="/api/src/audios/Colorful-Flowers(chosic.com).mp3" type="audio/mp3">
+                <source src="/audios/Colorful-Flowers(chosic.com).mp3" type="audio/mp3">
             </audio>
 
         </div>
@@ -427,15 +427,15 @@ include __DIR__ . '/media-queries.php';
 
 
     <audio id="openClickSound">
-        <source src="/api/src/audios/button-click-open.mp3">
+        <source src="/audios/button-click-open.mp3">
     </audio>
 
     <audio id="closeClickSound">
-        <source src="/api/src/audios/button-click-close.mp3">
+        <source src="/audios/button-click-close.mp3">
     </audio>
 
     <audio id="emailSentSound">
-        <source src="/api/src/audios/emailSentSound.mp3">
+        <source src="/audios/emailSentSound.mp3">
     </audio>
 
 </body>
