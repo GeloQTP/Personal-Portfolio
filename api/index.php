@@ -13,9 +13,9 @@ unset($_SESSION['status']);
     <meta content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Portfolio website showcasing illustrations, web development, and skills.">
     <meta name="author" content="DFSquid">
-    <link rel="icon" href="/public/img/451306160_1311454363592515_8502308035295985978_n.jpg" type="image/x-icon">
+    <link rel="icon" href="/img/DFSquid-Profile.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@1.9.4/src/app/ci.min.css" />
-    <title>DFSquiddd</title> 
+    <title>DFSquiddd</title>
 </head>
 
 <?php
@@ -381,7 +381,7 @@ include __DIR__ . '/media-queries.php';
             </div>
 
             <div class="profile-picture-container"> <!--Profile Picture-->
-                <img src="/api/src/img/DFSquid-Profile.png" alt="DFSquid Profile Picture" title="Pen Profile Picture">
+                <img src="/Personal_Portfolio/public/img/DFSquid-Profile.png" alt="DFSquid Profile Picture" title="Pen Profile Picture">
             </div>
 
         </div>
