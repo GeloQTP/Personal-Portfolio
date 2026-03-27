@@ -185,7 +185,7 @@ include __DIR__ . '/media-queries.php';
                             as they are either Commissions or pure Ugly.</p>
                     </div>
                     <p>> i drew my girls in 2025</p>
-                    <img src="/public/static/img/myGorls.png" alt="" style="width: 800px;  height: 500px;">
+                    <img src="/img/myGorls.png" alt="" style="width: 800px;  height: 500px;">
                     <br>
                     <p>> i drew this one for a greek mythology themed minecraft server</p>
                     <img src="/api/src/img/apollo.png" alt="Apollo Digital Artwork" style=" width: 800px; height: 500px;">
