@@ -188,7 +188,7 @@ include __DIR__ . '/media-queries.php';
                     <img src="/img/myGorls.png" alt="" style="width: 800px;  height: 500px;">
                     <br>
                     <p>> i drew this one for a greek mythology themed minecraft server</p>
-                    <img src="/api/src/img/apollo.png" alt="Apollo Digital Artwork" style=" width: 800px; height: 500px;">
+                    <img src="/img/apollo.png" alt="Apollo Digital Artwork" style=" width: 800px; height: 500px;">
                     <br>
                     <p>> im proud of this one, this is a sample of my artstyle we are going to use for our game. im progressing
                         with my anatomy XD.
