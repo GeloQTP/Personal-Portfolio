@@ -14,15 +14,11 @@ unset($_SESSION['status']);
     <meta name="description" content="Portfolio website showcasing illustrations, web development, and skills.">
     <meta name="author" content="DFSquid">
     <link rel="icon" href="/Personal_Portfolio/api/src/img/451306160_1311454363592515_8502308035295985978_n.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="/Personal_Portfolio/api/src/css/style.css">
-    <link rel="stylesheet" href="/Personal_Portfolio/api/src/css/media-queries.css">
+    <link rel="stylesheet" href="/Personal_Portfolio/api/style.css">
+    <link rel="stylesheet" href="/Personal_Portfolio/api/media-queries.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@1.9.4/src/app/ci.min.css" />
     <title>DFSquiddd</title>
 </head>
-
-<?php
-include __DIR__ . '/style.php';
-?>
 
 <body>
 
@@ -441,11 +437,8 @@ include __DIR__ . '/style.php';
 
 </body>
 
-<?php
-include __DIR__ . '/scripts.php';
-?>
-
 <script src="https://unpkg.com/rough-notation/lib/rough-notation.iife.js"></script>
+<script src="./scripts.js"></script>
 
 
 <script>
@@ -499,6 +492,7 @@ include __DIR__ . '/scripts.php';
 
 
 <script>
+    // SOUND EFFECTS
     let emailSentSound = document.getElementById("emailSentSound");
     const status = <?= json_encode($status) ?>; // the message variable is from the php at the top of this file
 
