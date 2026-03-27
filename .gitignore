@@ -13,3 +13,5 @@ Thumbs.db
 
 # Env files (secrets/environmental variables)
 .env
+.vercel
+.env*.local

@@ -13,9 +13,7 @@ unset($_SESSION['status']);
     <meta content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Portfolio website showcasing illustrations, web development, and skills.">
     <meta name="author" content="DFSquid">
-    <link rel="icon" href="/api/src/img/451306160_1311454363592515_8502308035295985978_n.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="./api/style.css">
-    <link rel="stylesheet" href="./api/media-queries.css">
+    <link rel="icon" href="/public/static/img/451306160_1311454363592515_8502308035295985978_n.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dheereshagrwal/coloured-icons@1.9.4/src/app/ci.min.css" />
     <title>DFSquiddd</title>
 </head>
@@ -187,7 +185,7 @@ include __DIR__ . '/media-queries.php';
                             as they are either Commissions or pure Ugly.</p>
                     </div>
                     <p>> i drew my girls in 2025</p>
-                    <img src="/api/src/img/myGorls.png" alt="" style="width: 800px;  height: 500px;">
+                    <img src="/public/static/img/myGorls.png" alt="" style="width: 800px;  height: 500px;">
                     <br>
                     <p>> i drew this one for a greek mythology themed minecraft server</p>
                     <img src="/api/src/img/apollo.png" alt="Apollo Digital Artwork" style=" width: 800px; height: 500px;">
